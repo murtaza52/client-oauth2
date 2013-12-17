@@ -28,7 +28,6 @@ To use the Oauth 1.0 Authenticated Request flow -
     :oauth-token-secret "xxxxxxxxxxxxxxxxxxxxx")
 
 ;; You can also access the intermediate results used for creating the auth header. This is useful for debugging.
-
 (oauth/get-auth-header-graph)
 
 ```
