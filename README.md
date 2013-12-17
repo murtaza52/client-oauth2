@@ -1,8 +1,8 @@
 # client-oauth2
 
-A Clojure Oauth client library. 
+[Clojars Dependency](https://clojars.org/client-oauth2)
 
-This library provides implementation of two specific oauth workflows - 
+A Clojure Oauth client library. This library provides implementation of two specific oauth workflows - 
 
 1. [Authenticated Request](http://tools.ietf.org/html/rfc5849#page-14) (Oauth 1.0)
 2. [Client Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.4) (Oauth 2.0)
