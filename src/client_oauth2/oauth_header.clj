@@ -83,10 +83,12 @@
       :auth-header (fnk [oauth-params oauth-signature] (create-oauth-header oauth-params oauth-signature))
       })))
 
+;; helpful in debugging as the whole graph is returned with intermediate results of calculating the auth-header
 (defn get-auth-header-graph
   [& {:keys [consumer-key consumer-secret request-options oauth-token oauth-token-secret] :as params}]
   (auth-header-graph params))
 
-;; create a record for oauth-params and request-options
-;; private and public fns
-;; prismatic schema defs
+(defn get-auth-header
+  [& {:keys [consumer-key consumer-secret request-options oauth-token oauth-token-secret] :as params}]
+  (-> (auth-header-graph params)
+      :auth-header))

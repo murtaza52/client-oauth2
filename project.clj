@@ -1,4 +1,4 @@
-(defproject client-oauth2 "0.1.7"
+(defproject client-oauth2 "0.1.8"
   :description "A oauth2 library for clojure."
   :url "https://github.com/murtaza52/clj-oauth2"
   :license {:name "Eclipse Public License"
