@@ -4,8 +4,8 @@ A Clojure Oauth client library.
 
 This library provides implementation of two specific oauth workflows - 
 
-1. [Authenticated Request Oauth 1.0](http://tools.ietf.org/html/rfc5849#page-14). 
-2. [Client Credentials Grant Oauth 2.0](http://tools.ietf.org/html/rfc6749#section-4.4) Workflow. 
+1. [Authenticated Request](http://tools.ietf.org/html/rfc5849#page-14) (Oauth 1.0)
+2. [Client Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.4) (Oauth 2.0)
 
 ## Usage
 
